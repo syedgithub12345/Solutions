@@ -1,3 +1,7 @@
+//Given an integer x, 
+//return true if x is a palindrome, and false otherwise.
+//java
+
 class palindrome {
     public boolean isPalindrome(int x) {
         String st = Integer.toString(x);
