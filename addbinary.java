@@ -2,7 +2,7 @@
 //return their sum as a binary string.
 //java
 
-class Solution {
+class addbinary {
     public String addBinary(String a, String b) {
         int aDecimal = Integer.parseInt(a, 2);
         int bDecimal = Integer.parseInt(b, 2);
