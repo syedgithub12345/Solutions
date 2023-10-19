@@ -6,6 +6,8 @@
 //You must solve this problem without using the library's sort function.
 //java
 
+//The Dutch National Flag algorithm sorts the array in a single pass without extra space.
+
 class sortcolors {
     public void sortColors(int[] nums) {
         int low = 0;
