@@ -17,9 +17,9 @@ class fibonacci {
         }
     }
 
-    // public static void main(String[] args) {
-    //     Solution sc = new Solution();
-    //     int n = 4;
-    //     System.out.println(sc.fib(n));
-    // }
+    public static void main(String[] args) {
+        fibonacci sc = new fibonacci();
+        int n = 4;
+        System.out.println(sc.fib(n));
+    }
 }
