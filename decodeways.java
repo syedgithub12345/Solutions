@@ -13,8 +13,6 @@ public class decodeways {
     public static int numDecodings(String s){
         if(s==null || s.length()==0){
             return 0;
-        }else if (s.length()==1){
-            return 1;
         }
         int n=s.length();
         int[] dp=new int[n+1];
@@ -30,9 +28,5 @@ public class decodeways {
                 dp[i]+=dp[i-2];
             }
         }return dp[n];
-    }
-    public static void main(String[] args) {
-        String s="";
-        System.out.println("Number of decoded ways is "+numDecodings(s));
     }
 }
