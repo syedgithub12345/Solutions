@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 StringBuilder s3=new StringBuilder("Delhi");
     // for(int i=0;i<s3.length()/2;i++){
     //     int front=i;
@@ -9,3 +10,6 @@ StringBuilder s3=new StringBuilder("Delhi");
     //     s3.setCharAt(endchar,frontchar);
     // }
     // System.out.println(s3);
+=======
+
+>>>>>>> 48bb81a (forty one)
