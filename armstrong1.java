@@ -1,7 +1,7 @@
 //armstrong
 import java.util.Scanner;
 
-public class main {
+public class armstrong1 {
     public static void armstrong1(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
